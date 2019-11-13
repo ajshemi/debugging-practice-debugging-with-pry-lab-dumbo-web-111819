@@ -1,4 +1,4 @@
-# Debugging
+lea# Debugging
 
 If you clone down this lab and run the tests, you'll notice something:
 everything's broken. Like, broken bad. The entire lab is so full of bugs that
