@@ -10,8 +10,10 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-    turtle[:traits].map do |trait|
-      trait
+    turtle.map do |key,value|
+      if key == :traits
+        value
+      end
     end
   end
 end
